@@ -22,75 +22,76 @@ public static class GameComponentsLookup {
     public const int Level = 11;
     public const int LevelMultiply = 12;
     public const int MaxHealth = 13;
-    public const int Price = 14;
-    public const int RechargeAttackTimer = 15;
-    public const int Reward = 16;
-    public const int Speed = 17;
-    public const int Transform = 18;
-    public const int UpgradeStats = 19;
-    public const int ViewObject = 20;
-    public const int MakeDamage = 21;
-    public const int TakeDamage = 22;
-    public const int Enemy = 23;
-    public const int EnemyCreated = 24;
-    public const int EnemyType = 25;
-    public const int EnemySpawner = 26;
-    public const int SpawnEnemy = 27;
-    public const int SpawnTickTime = 28;
-    public const int SpawnTickTimer = 29;
-    public const int TimeBeforeFirstSpawn = 30;
-    public const int TrySpawnEnemy = 31;
-    public const int WaveDelayTime = 32;
-    public const int WaveDelayTimer = 33;
-    public const int DefeatState = 34;
-    public const int GameManager = 35;
-    public const int EnemyFinishPoint = 36;
-    public const int EnemyStartPoint = 37;
-    public const int GameLevel = 38;
-    public const int GameLevelNumber = 39;
-    public const int TotalDeathEnemy = 40;
-    public const int PathfinderAgent = 41;
-    public const int ActiveObjects = 42;
-    public const int EnemyObjectPool = 43;
-    public const int InactiveObjects = 44;
-    public const int TotalSize = 45;
-    public const int ChangeCurrency = 46;
-    public const int Currency = 47;
-    public const int Player = 48;
-    public const int AttackState = 49;
-    public const int DeathState = 50;
-    public const int IdleState = 51;
-    public const int MoveState = 52;
-    public const int SearchAttackTargetState = 53;
-    public const int StateObjectType = 54;
-    public const int TransitionState = 55;
-    public const int CreateTower = 56;
-    public const int Tower = 57;
-    public const int TryPurchaseLevel = 58;
-    public const int TowerPoint = 59;
-    public const int DeathEnemyInWave = 60;
-    public const int EnemyInWave = 61;
-    public const int MaxEnemyInWave = 62;
-    public const int Wave = 63;
-    public const int WaveManager = 64;
-    public const int AnyCurrencyListener = 65;
-    public const int AnyDefeatStateListener = 66;
-    public const int AnyTotalDeathEnemyListener = 67;
-    public const int AnyWaveListener = 68;
-    public const int AttackDistanceListener = 69;
-    public const int AttackStateListener = 70;
-    public const int DeathStateListener = 71;
-    public const int HealthListener = 72;
-    public const int IdleStateListener = 73;
-    public const int LevelListener = 74;
-    public const int LevelMultiplyListener = 75;
-    public const int MaxHealthListener = 76;
-    public const int MoveStateListener = 77;
-    public const int PriceListener = 78;
-    public const int SearchAttackTargetStateListener = 79;
-    public const int TakeDamageListener = 80;
+    public const int MinAttackRate = 14;
+    public const int Price = 15;
+    public const int RechargeAttackTimer = 16;
+    public const int Reward = 17;
+    public const int Speed = 18;
+    public const int Transform = 19;
+    public const int UpgradeStats = 20;
+    public const int ViewObject = 21;
+    public const int MakeDamage = 22;
+    public const int TakeDamage = 23;
+    public const int Enemy = 24;
+    public const int EnemyCreated = 25;
+    public const int EnemyType = 26;
+    public const int EnemySpawner = 27;
+    public const int SpawnEnemy = 28;
+    public const int SpawnTickTime = 29;
+    public const int SpawnTickTimer = 30;
+    public const int TimeBeforeFirstSpawn = 31;
+    public const int TrySpawnEnemy = 32;
+    public const int WaveDelayTime = 33;
+    public const int WaveDelayTimer = 34;
+    public const int DefeatState = 35;
+    public const int GameManager = 36;
+    public const int EnemyFinishPoint = 37;
+    public const int EnemyStartPoint = 38;
+    public const int GameLevel = 39;
+    public const int GameLevelNumber = 40;
+    public const int TotalDeathEnemy = 41;
+    public const int PathfinderAgent = 42;
+    public const int ActiveObjects = 43;
+    public const int EnemyObjectPool = 44;
+    public const int InactiveObjects = 45;
+    public const int TotalSize = 46;
+    public const int ChangeCurrency = 47;
+    public const int Currency = 48;
+    public const int Player = 49;
+    public const int AttackState = 50;
+    public const int DeathState = 51;
+    public const int IdleState = 52;
+    public const int MoveState = 53;
+    public const int SearchAttackTargetState = 54;
+    public const int StateObjectType = 55;
+    public const int TransitionState = 56;
+    public const int CreateTower = 57;
+    public const int Tower = 58;
+    public const int TryPurchaseLevel = 59;
+    public const int TowerPoint = 60;
+    public const int DeathEnemyInWave = 61;
+    public const int EnemyInWave = 62;
+    public const int MaxEnemyInWave = 63;
+    public const int Wave = 64;
+    public const int WaveManager = 65;
+    public const int AnyCurrencyListener = 66;
+    public const int AnyDefeatStateListener = 67;
+    public const int AnyTotalDeathEnemyListener = 68;
+    public const int AnyWaveListener = 69;
+    public const int AttackDistanceListener = 70;
+    public const int AttackStateListener = 71;
+    public const int DeathStateListener = 72;
+    public const int HealthListener = 73;
+    public const int IdleStateListener = 74;
+    public const int LevelListener = 75;
+    public const int LevelMultiplyListener = 76;
+    public const int MaxHealthListener = 77;
+    public const int MoveStateListener = 78;
+    public const int PriceListener = 79;
+    public const int SearchAttackTargetStateListener = 80;
+    public const int TakeDamageListener = 81;
 
-    public const int TotalComponents = 81;
+    public const int TotalComponents = 82;
 
     public static readonly string[] componentNames = {
         "Chance",
@@ -107,6 +108,7 @@ public static class GameComponentsLookup {
         "Level",
         "LevelMultiply",
         "MaxHealth",
+        "MinAttackRate",
         "Price",
         "RechargeAttackTimer",
         "Reward",
@@ -191,6 +193,7 @@ public static class GameComponentsLookup {
         typeof(_Core_.Common.Components.LevelComponent),
         typeof(_Core_.Common.Components.LevelMultiplyComponent),
         typeof(_Core_.Common.Components.MaxHealthComponent),
+        typeof(_Core_.Common.Components.MinAttackRateComponent),
         typeof(_Core_.Common.Components.PriceComponent),
         typeof(_Core_.Common.Components.RechargeAttackTimerComponent),
         typeof(_Core_.Common.Components.RewardComponent),

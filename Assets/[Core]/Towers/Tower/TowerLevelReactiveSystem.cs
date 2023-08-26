@@ -28,8 +28,10 @@ namespace _Core_.Towers.Tower
             {
                 var level = entity.level.value;
                 var damage = entity.damage.value + entity.levelMultiply.damage * level;
-                var attackRate = entity.attackRate.value - entity.levelMultiply.attackRate * level;
+                var attackRate = entity.attackRate.value - entity.levelMultiply.attackRate;
                 var price = entity.price.value + entity.levelMultiply.price * level;
+
+                attackRate = attackRate < entity.minAttackRate.value ? entity.minAttackRate.value : attackRate;
                 
                 entity.ReplaceDamage(damage);
                 entity.ReplaceAttackRate(attackRate);

@@ -30,7 +30,7 @@ namespace _Core_.EnemySpawner
             _contexts.game.CreateEntity().isSpawnEnemy = true;
 
             var enemySpawnerEntity = _contexts.game.enemySpawnerEntity;
-            enemySpawnerEntity.AddSpawnTickTimer(enemySpawnerEntity.spawnTickTime.value);
+            enemySpawnerEntity.ReplaceSpawnTickTimer(enemySpawnerEntity.spawnTickTime.value);
             
             waveManagerEntity.ReplaceEnemyInWave(waveManagerEntity.enemyInWave.value + 1);
         }

@@ -13,5 +13,6 @@ namespace _Core_.Towers.Tower.Configs
         [field: SerializeField] public float DamageMultiply { get; private set; }
         [field: SerializeField] public float AttackRateMultiply { get; private set; }
         [field: SerializeField] public int PricePerLevel{ get; private set; }
+        [field: SerializeField] public float MinAttackRate{ get; private set; }
     }
 }

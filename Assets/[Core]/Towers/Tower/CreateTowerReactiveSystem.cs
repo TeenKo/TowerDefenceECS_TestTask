@@ -47,6 +47,7 @@ namespace _Core_.Towers.Tower
                 towerEntity.AddLevel(0);
                 towerEntity.AddAttackDistance(_towerConfig.AttackDistance);
                 towerEntity.AddPrice(_towerConfig.Price);
+                towerEntity.AddMinAttackRate(_towerConfig.MinAttackRate);
                 towerEntity.isIdleState = true;
                 towerView.Link(towerEntity);
 
