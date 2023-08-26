@@ -16,7 +16,6 @@ namespace _Core_.LevelCore
         public LevelCoreSystems(Contexts contexts)
         {
             Add(new LevelViewSystems(contexts));
-            Add(new ObjectPoolSystems(contexts));
             Add(new WaveManagerSystems(contexts));
             Add(new EnemySpawnSystems(contexts));
             Add(new EnemySystems(contexts));

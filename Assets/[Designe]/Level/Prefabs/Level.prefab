@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d95cd9681f7c4acf825f1df77be516df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelNumber: 1
   enemyStartPoint: {fileID: 1631337570079209824}
   enemyFinishPoint: {fileID: 6678973981893067644}
-  levelNumber: 1
   towerPointViews:
   - {fileID: 964217101243026690}
   - {fileID: 1613014466084972321}
@@ -124,6 +124,10 @@ MonoBehaviour:
   - {fileID: 4620267925157154540}
   - {fileID: 2460013763426309247}
   - {fileID: 5087258831405674324}
+  enemyObjectPools:
+  - {fileID: 3579870812618584952}
+  - {fileID: 5789950757035150390}
+  - {fileID: 6089978083170147342}
 --- !u!1 &1012350867186373593
 GameObject:
   m_ObjectHideFlags: 0
